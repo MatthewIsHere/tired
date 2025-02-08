@@ -17,7 +17,15 @@ This project is inspired by Simon Ser's [chayang](https://git.sr.ht/~emersion/ch
 
 To install **Tired**, follow these steps:
 
-### 1. Install Dependencies
+### 1. Install via AUR (Arch Linux)
+
+On Arch Linux, you can install `tired-git` from the AUR using an AUR helper like `yay` or `paru`:
+
+```bash
+paru -S tired-git
+```
+
+### 2. Install Dependencies (Manual Build)
 
 Ensure the following dependencies are installed:
 
@@ -35,14 +43,14 @@ sudo apt-get install cmake libwayland-client-dev
 sudo pacman -S cmake wayland
 ```
 
-### 2. Clone the Repository
+### 3. Clone the Repository
 
 ```bash
 git clone https://github.com/yourusername/tired.git
 cd tired
 ```
 
-### 3. Build the Project
+### 4. Build the Project
 
 Create a build directory and compile the project using CMake:
 
@@ -53,7 +61,7 @@ cmake ..
 make
 ```
 
-### 4. Install the Executable
+### 5. Install the Executable
 
 After a successful build, install the `tired` executable:
 
