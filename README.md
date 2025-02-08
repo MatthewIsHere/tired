@@ -93,12 +93,12 @@ Options:
 **My personal usage**:
 
 ```bash
-tired -d 20000 -c "swaymsg output eDP-1 power off; gtklock -d"
+tired -t 20000 -c "swaymsg output eDP-1 power off; gtklock -d"
 ```
 
 In this example:
 
-- `-d 20000`: Sets the dim speed to 20,000 milliseconds.
+- `-t 20000`: Sets grace period to 20 seconds.
 - `-c "swaymsg output eDP-1 power off; gtklock -d"`: Executes the command to turn off the `eDP-1` display and then locks the screen using `gtklock` before exiting.
 
 ## Contributing
