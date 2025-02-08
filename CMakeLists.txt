@@ -32,3 +32,8 @@ target_link_libraries(tired PUBLIC
 
 # Set installation destination
 install(TARGETS tired DESTINATION /usr/local/bin)
+
+
+# Install shell completion scripts system-wide
+install(FILES completions/tired.bash DESTINATION /etc/bash_completion.d/)
+install(FILES completions/_tired DESTINATION /usr/share/zsh/site-functions/)

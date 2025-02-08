@@ -1,0 +1,8 @@
+#compdef tired
+
+_arguments \
+  '-t[Set hold time in milliseconds]:milliseconds:' \
+  '-d[Set dim speed in milliseconds]:milliseconds:' \
+  '-b[Set brightness level during dim]:brightness (0-100):' \
+  '-c[Command to execute before exit]:command:' \
+  '-h[Show help message]'
